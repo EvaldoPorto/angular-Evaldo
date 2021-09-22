@@ -9,15 +9,6 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TopBarComponent,
-    ProductListComponent,
-    ProductAlertsComponent,
-  ],
-})
-
-@NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
@@ -28,7 +19,8 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
   declarations: [
     AppComponent,
     TopBarComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductAlertsComponent,
   ],
   bootstrap: [
     AppComponent
