@@ -10,9 +10,8 @@ import { Product, products } from '../products';
 export class ProductDetailsComponent implements OnInit {
 
   product: Product | undefined;
-  
+
   constructor(private route: ActivatedRoute) { 
-    this.product = {id: 0, name: '', price: 0, description: ''};
   }
 
   ngOnInit() {
